@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors({
-  origin: ["http://127.0.0.1:5500", "http://localhost:5500","http://127.0.0.1:80", "http://localhost:80"],
+  origin: ["http://127.0.0.1:5500", "http://localhost:5500","http://127.0.0.1:80", "http://localhost:80",  "http://s681int191v081.sit.kmutt.ac.th","http://s681int191v081.sit.kmutt.ac.th:3000","https://s681int191v081.sit.kmutt.ac.th:80"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
